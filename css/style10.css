@@ -8,7 +8,6 @@ a{
     background-color: #FFCDD2;
     color: #000000;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper1 {
@@ -27,7 +26,7 @@ a{
 
 .page1header {
     background-color: #517A8D;
-    width: 100%;
+    width: 1000px;
     height: 388px;
     position:relative;
 }
@@ -38,23 +37,25 @@ a{
 }
 
 .page1header nav{
+    /* margin-left: 272px;
+    padding-top: 250px; */
     position:absolute;
     width: 728px;
     height: 57px;
     display: flex;
     flex-wrap: wrap;
     bottom: 0;
-    right:1px;
-    justify-content: center;
+    right:1px
 }
 
 .page1header nav a{
-    justify-content: center;
+    justify-content: space-between;
     width: 242px;
     text-align: center;
-    display: flex;
-    align-items: center;
-
+    padding-top: 10px;
+}
+.page1header nav a:hover{
+    font-weight: 700;
 }
 
 #selected{
@@ -63,23 +64,9 @@ a{
 }
 
 .main1{
-    width: 100%;
+    width: 1000px;
     height: 491px;
     background-color: #000000;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    
-}
-
-.leftside {
-    width: 272px;
-}
-
-
-.rightside {
-    flex-direction: row;
-    width: 728px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -88,9 +75,8 @@ a{
     width: 93px;
     height: 33px;
     background-color: #517A8D;
-    left: 25px;
-    top: 24px;
-    position: absolute;
+    margin-left: 25px;
+    margin-top: 24px;
     
 }
 
@@ -98,32 +84,27 @@ a{
     width: 335px;
     height: 389px;
     background-color: #517A8D;
-    right:25px;
+    margin-left: 151px;
     margin-top: 31px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #page1right {
     width: 338px;
     height: 338px;
     background-color: #517A8D;
-    top: 31px;
-    right: 30px;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 31px;
+    margin-left: 25px;
 }
 
 .footer1{
     background-color: #D6D6D6;
     height: 121px;
-    width: 100%;
+    width: 1000px;
 }
 
 .page2header {
     background-color: #000000;
-    width: 100%;
+    width: 1400px;
     height: 192px;
     position:relative;
 }
@@ -145,11 +126,14 @@ a{
 #page2nav ul li{
     height: 135px;
     width: 244px;
-    line-height: 135px;
-    
+    line-height: 5;
 }
 #page2nav ul li a {
     margin-left: 6px;
+}
+
+#page2nav ul li a:hover{
+    font-weight: 700;
 }
 
 #p2selected{
@@ -159,13 +143,14 @@ a{
     background-color:#B94A48;
     margin-left: 6px;
 }
+
+
 .main2{
     width: 818px;
     height: 1686px;
     background-color: #000000;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
 }
 
 #page2aside{
@@ -178,7 +163,6 @@ a{
     width: 338px;
     height: 338px;
     background-color: #517A8D;
-    margin-left: 30px;
 }
 
 #page2top{
@@ -186,12 +170,18 @@ a{
     flex-wrap: wrap;
 }
 
+#page2top .page2square{
+    margin-left: 30px;
+}
+
 #page2middle{
-    margin-top: 120px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 }
+
+#page2middlesecond{
+    padding-top: 217px;
+ }
 
 .first-mid-container {
     display: flex;
@@ -205,49 +195,10 @@ a{
     justify-content: center;
 }
 
+
 .footer2{
     background-color: #D6D6D6;
     height: 122px;
-    width: 100%;
-}
-
-.page1header nav a:hover{
-    font-weight: 700;
-}
-
-#page2nav ul li:hover{
-    font-weight: 700;
-}
-
-#page2aside {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-}
-
-#aside-square-top{
-    position: absolute;
-    height: 338px;
-    width: 128px;
-    background-color: #C0D0E5;
-    margin-top: 66px;
-    right:42px;
-}
-
-#aside-square-bottom{
-    position: absolute;
-    height: 125px;
-    width: 128px;
-    background-color: #C0D0E5;
-    bottom: 34px;
-    left: 106px
-}
-
-.first-mid-container .page2square{
-    margin-bottom: 42px;
-}
-
-.second-mid-container .page2square{
-    margin-top: 6px;
+    width: 1400px;
 }
 

@@ -308,6 +308,7 @@ a {
     width: 100%;
     height: 100%;
     background-color: #517A8D;
+    display: contents;
 }
 
 .page3squares {
@@ -346,6 +347,7 @@ a {
 #selectedSquare{
     background-color: blue;
     opacity: 100%;
+    
 }
 
 
